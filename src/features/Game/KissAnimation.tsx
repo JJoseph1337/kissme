@@ -8,7 +8,7 @@ import { resetAnimation } from "./gameSlice";
 import { kiss } from "../../assets";
 import kissSound from "../../assets/sounds/Kiss sound.mp3";
 
-import styles from "./game.module.css";
+import styles from "./Game.module.css";
 
 const KissAnimation: FC = () => {
   const dispatch = useDispatch();

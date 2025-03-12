@@ -7,9 +7,10 @@ import { PlayerAvatar } from "../../components/PlayerAvatar";
 import Bottle from "./Bottle";
 import { KissCounter } from "../../components/KissCounter";
 
-import styles from "./game.module.css";
 import Timer from "../../components/Timer";
 import KissAnimation from "./KissAnimation";
+
+import styles from "./Game.module.css";
 
 const GameField: FC = () => {
   const { players, activePlayerId, gameStatus } =

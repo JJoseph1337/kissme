@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "./playerAvatar.module.css";
+import styles from "./PlayerAvatar.module.css";
 import { getKissString } from "../utils/pluralize";
 
 interface PlayerAvatarProps {

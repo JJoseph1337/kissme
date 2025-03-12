@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useDispatch } from "react-redux";
 import { resetGame } from "../features/Game/gameSlice";
-import styles from "./resetButton.module.css";
+import styles from "./ResetButton.module.css"
 
 const ResetButton: FC = () => {
   const dispatch = useDispatch();
